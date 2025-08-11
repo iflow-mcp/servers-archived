@@ -1,5 +1,5 @@
 {
-  "name": "@modelcontextprotocol/server-gitlab",
+  "name": "@iflow-mcp/server-gitlab",
   "version": "0.6.2",
   "description": "MCP server for using the GitLab API",
   "license": "MIT",
