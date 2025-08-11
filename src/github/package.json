@@ -1,5 +1,5 @@
 {
-  "name": "@modelcontextprotocol/server-github",
+  "name": "@iflow-mcp/server-github",
   "version": "0.6.2",
   "description": "MCP server for using the GitHub API",
   "license": "MIT",
