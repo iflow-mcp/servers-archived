@@ -1,5 +1,5 @@
 {
-  "name": "@modelcontextprotocol/server-slack",
+  "name": "@iflow-mcp/server-slack",
   "version": "0.6.2",
   "description": "MCP server for interacting with Slack",
   "license": "MIT",
