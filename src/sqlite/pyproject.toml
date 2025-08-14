@@ -1,5 +1,5 @@
 [project]
-name = "mcp-server-sqlite"
+name = "iflow-mcp_mcp-server-sqlite"
 version = "0.6.2"
 description = "A simple SQLite MCP server"
 readme = "README.md"
@@ -17,3 +17,6 @@ dev-dependencies = ["pyright>=1.1.389"]
 
 [project.scripts]
 mcp-server-sqlite = "mcp_server_sqlite:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_server_sqlite"]
