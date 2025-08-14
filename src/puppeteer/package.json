@@ -1,5 +1,5 @@
 {
-  "name": "@modelcontextprotocol/server-puppeteer",
+  "name": "@iflow-mcp/server-puppeteer",
   "version": "0.6.2",
   "description": "MCP server for browser automation using Puppeteer",
   "license": "MIT",
