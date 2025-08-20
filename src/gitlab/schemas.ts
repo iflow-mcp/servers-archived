@@ -136,9 +136,7 @@ export const CreateBranchOptionsSchema = z.object({
 // Response schemas for operations
 export const GitLabCreateUpdateFileResponseSchema = z.object({
   file_path: z.string(),
-  branch: z.string(),
-  commit_id: z.string(), // Changed from sha to match GitLab API
-  content: GitLabFileContentSchema.optional()
+  branch: z.string()
 });
 
 export const GitLabSearchResponseSchema = z.object({
@@ -150,11 +148,6 @@ export const GitLabSearchResponseSchema = z.object({
 export const GitLabForkParentSchema = z.object({
   name: z.string(),
   path_with_namespace: z.string(), // Changed from full_name to match GitLab API
-  owner: z.object({
-    username: z.string(), // Changed from login to match GitLab API
-    id: z.number(),
-    avatar_url: z.string()
-  }),
   web_url: z.string() // Changed from html_url to match GitLab API
 });
 
